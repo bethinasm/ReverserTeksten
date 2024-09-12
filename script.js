@@ -33,8 +33,13 @@ function saveText(inputText) {
     console.log('Dette ble skrevet inn: ' + inputString);
 }
 
-function reverseText(){
+function emptyText(){
+    reversedString = '';
+}
 
+
+function reverseText(){
+    emptyText()
         // -1 fordi den teller fra høyre til venstre. 
         // loopen kjører så lenger i er større eller lik 0 (fordi 0 er starten)
         // i-- fordi etter hver loop runde blir verdien til i redusert med 1.
